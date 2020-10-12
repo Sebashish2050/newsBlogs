@@ -1,0 +1,91 @@
+body {
+  color: #4a4949!important;
+}
+
+.paragraph {
+  box-sizing: border-box;
+  border-bottom: 1px solid #eef1f3;
+  padding: 5px;
+}
+
+.customNavbar .navbar-brand {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.customNavbar .nav-link {
+  color: #fff;
+}
+
+.customNavbar .navbar-brand:hover, .customNavbar .nav-item:hover, .customNavbar .nav-link:hover {
+  color:#e2e5e6;
+}
+
+.paragraph article {
+  width: 100%;
+  display: flex;
+}
+
+.paragraph .thumbnail, .paragraph .content {
+  display: inline-block;
+}
+
+.spinner-border {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.contentText {
+  font-size: 0.8rem;
+}
+
+.formattedDate {
+  margin-top: -0.5rem;
+  font-size: 0.75rem;
+  color: #848282;
+}
+.postTitle {
+  cursor: pointer;
+  color: #057bfe;
+}
+
+.postTitle:hover {
+  text-decoration: underline;
+}
+
+.metaData {
+  margin: 8px;  
+}
+
+.metadataSection {
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  color: #767676;
+}
+.navigation {
+  margin-bottom: 15px;
+}
+
+.navigation .nav-item {
+  margin-left: -15px;
+}
+
+@media (max-width: 576px) {
+  .excerpt {
+      display: none;
+  }
+}
+.relatedPost {
+  cursor: pointer;
+}
+
+.navigationGrid {
+  padding: 15px;
+  border: 5px solid #eef1f3;
+  box-shadow: 0px 1px 10px #eef1f3;
+}
+
+img{
+  max-width: 100%;
+  cursor: pointer;
+};
